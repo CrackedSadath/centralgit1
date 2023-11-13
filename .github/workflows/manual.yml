@@ -6,7 +6,7 @@ name: Build and deploy container app to Azure Web App - was-pipvd-dev-westus2-00
 on:
   push:
     branches:
-      - SP-1
+      - main
   workflow_dispatch:
 
 jobs:
